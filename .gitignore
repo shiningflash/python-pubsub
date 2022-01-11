@@ -1,0 +1,7 @@
+venv
+*/venv
+*/*/venv
+*/*_privatekey.json
+.DS_Store
+*/.DS_Store
+.vs_code
