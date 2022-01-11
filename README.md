@@ -4,7 +4,7 @@ We're going to enable Google Cloud Platform's Pub/Sub API and write a publisher 
 
 Something to keep in mind is that Pubsub is almost always a nice-to-have. It's not a necessity. We use it to build a workflow with websites and cloud hosting, passing messages between services that otherwise don't talk to each other. Pubsub's great at storing our topic messages and letting cloud functions trigger and fire to keep a workflow running.
 
-### Process
+### Set up google cloud
 
 ---
 
