@@ -30,4 +30,5 @@ $ pip install --upgrade google-cloud-pubsub
 
 ```
 $ python3 publisher.py
+$ python3 subscriber.py
 ```
