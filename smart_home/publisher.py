@@ -13,7 +13,13 @@ def send_clearance():
     data = "The house is safe. All good."
     data = data.encode('utf-8')
     
-    future = publisher.publish(topic_path, data)
+    attributes = {
+        'sensorName': 'home-001',
+        'temperature': '72.0',
+        'humadity': '60'
+    }
+    
+    future = publisher.publish(topic_path, data, **attributes)
     print('Published message id', future.result())
 
 
