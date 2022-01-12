@@ -1,5 +1,7 @@
 # [python-pubsub](https://github.com/shiningflash/python-pubsub)
 
+---
+
 ## [1. Using Google Cloud Service (project: smart home)](https://github.com/shiningflash/python-pubsub/tree/main/smart_home)
 
 We're going to enable Google Cloud Platform's Pub/Sub API and write a publisher and a subscriber in Python. Then we're going to allow for more than just string data to be sent.
@@ -34,6 +36,8 @@ $ pip3 install --upgrade google-cloud-pubsub
 $ python3 publisher.py
 $ python3 subscriber.py
 ```
+
+---
 
 ## [2. Using Redis (project: control center)](https://github.com/shiningflash/python-pubsub/tree/main/control_center)
 
