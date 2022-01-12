@@ -1,6 +1,6 @@
 # [python-pubsub](https://github.com/shiningflash/python-pubsub)
 
-## 1. [Using Google Cloud Service (project: smart home)](https://github.com/shiningflash/python-pubsub/tree/main/smart_home)
+## [1. Using Google Cloud Service (project: smart home)](https://github.com/shiningflash/python-pubsub/tree/main/smart_home)
 
 We're going to enable Google Cloud Platform's Pub/Sub API and write a publisher and a subscriber in Python. Then we're going to allow for more than just string data to be sent.
 
@@ -35,7 +35,7 @@ $ python3 publisher.py
 $ python3 subscriber.py
 ```
 
-## 2. [Using Redis (project: control center)](https://github.com/shiningflash/python-pubsub/tree/main/control_center)
+## [2. Using Redis (project: control center)](https://github.com/shiningflash/python-pubsub/tree/main/control_center)
 
 This video is about the PUB/SUB feature of redis which allows you create message queues, and it could even be utilized to create a small control center in which the clients perform operations based on the channels they are subscribed to.
 
